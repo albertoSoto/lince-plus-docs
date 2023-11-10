@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklince_docs_v_3=self.webpackChunklince_docs_v_3||[]).push([[9755],{5358:e=>{e.exports=JSON.parse('{"permalink":"/lince-plus.docs/en/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
