@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklince_docs_v_3=self.webpackChunklince_docs_v_3||[]).push([[4031],{5576:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/lince-plus.docs/blog/tags/hello","allTagsPath":"/lince-plus.docs/blog/tags","count":2,"unlisted":false}')}}]);
