@@ -25,7 +25,7 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
+    defaultLocale: 'en',
     locales: ['es','en'],
   },
 
@@ -56,7 +56,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/linceplus-social-card.png',
+    image: 'img/lince-social-card.png',
     navbar: {
       title: 'LINCE PLUS',
       logo: {
@@ -85,12 +85,16 @@ const config: Config = {
           title: 'Other links',
           items: [
             {
-              label: 'Main website',
-              to: 'https://www.lince-plus.ocm',
+              label: 'LINCE APP',
+              to: 'https://www.lince-plus.com/products/lince-app',
             },
             {
-              label: 'LINCE PLUS Cloud',
-              to: 'https://www.lince-plus.ocm',
+              label: 'LINCE PLUS desktop',
+              to: 'https://www.lince-plus.com/products/lince-desktop',
+            },
+            {
+              label: 'LINCE Now',
+              to: 'https://www.lince-plus.com/products/lince-now',
             },
           ],
         },
@@ -98,8 +102,8 @@ const config: Config = {
           title: 'Please, cite us',
           items: [
             {
-              label: 'Main website',
-              to: 'https://www.lince-plus.ocm',
+              label: '(2022) LINCE PLUS software for systematic observational studies in sports and health',
+              to: 'https://doi.org/10.3758/s13428-021-01642-1',
             }
           ],
         },
