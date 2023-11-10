@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklince_docs_v_3=self.webpackChunklince_docs_v_3||[]).push([[4247],{3062:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/https://albertoSoto.github.io/lince-plus.docs/en/blog/tags/facebook","allTagsPath":"/https://albertoSoto.github.io/lince-plus.docs/en/blog/tags","count":1,"unlisted":false}')}}]);
