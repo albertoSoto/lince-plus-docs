@@ -158,7 +158,7 @@ From LINCE PLUS desktop toolbarm select "View" → "Open browser" and it will op
 
 In the top bar of your browser you can detect the access address to the Lince web portal. The address will be a value similar to the following: [http://192.168.1.10:555](http://192.168.1.10:555). If you look at Figure 8, in the bottom area you can see a value called "port". This value, together with the IP of the computer generates the specific access address to the web application (Figure 10).
 
-![900](img/web1.jpg)
+![900](img/web1.png)
 
 In this browser window you can see (Figure 10):
 
@@ -189,7 +189,7 @@ The typology of the observation instrument includes a system of categories (ther
 
 With the CONFIGURE option in the left side menu you can generate the structure of the observation instrument, first specifying the criteria / dimensions and then the categories / catalogs of behavior very easily, and sorting them intuitively using the icons shown in the image. Pressing the SAVE button displays a confirmation message.
 
-![900](img/web5.jpg)
+![900](img/web5.png)
 
 Figure 11: Observation instrument configuration
 
@@ -201,7 +201,7 @@ LINCE PLUS allows you to generate an instrument automatically, creating the keys
 
 Simply select the options to add with the + symbol and generate all the criteria / dimensions and categories / behaviors that are desired without entering any text or only the values that interest. This option is very useful if the denomination is not yet definitive or if you want to start directly completely inductively. In the following image you can see the generated result.
 
-![900](img/web6.jpg)
+![900](img/web6.png)
 
 You can see how by selecting SAVE the information is automatically filled. Then, you can edit the desired values, but without forgetting SAVE before leaving this option.
 
@@ -217,7 +217,7 @@ To access your selection you must use the Lince desktop application. In the top 
 
 In the video selector the list of supported formats is displayed. As LINCE PLUS uses the web browser for playing videos, the video format must be reproducible by the user’s browser. In case other formats are used, you should convert it to a valid format.
 
-![900](img/videotypes.jpg)
+![900](img/videotypes.png)
 
 If several videos are shown simultaneously, make sure they have the same duration, otherwise LINCE PLUS will not be able to know which temporary mark of the video you want to use for register.
 
@@ -227,17 +227,17 @@ Another aspect to consider is the size of the video. All the selected videos are
 
 If there is only one observer in the project, it is not necessary to fill in this configuration, and the program will act transparently. However, if 2 or more observers participate, it must be specified from the beginning.
 
-![900](img/web2.jpg)
+![900](img/web2.png)
 
 In the top button of the web environment there is an option called "Project information". It is important to define from the beginning how many observers are going to make the observation, and you must fill in the different fields and then select the button on the top right to "save everything".
 
-![900](img/web3.jpg)
+![900](img/web3.png)
 
 Now you have to navigate to another option to update the page and select the right button in the top bar and select "Change Observer".
 
 To change the observer, select one and mark it as active. It will show you the contained records you have had analyzed and the temporary marks.
 
-![500](img/web4.jpg)
+![500](img/web4.png)
 
 ### [](#trueproject-information)Project information
 
@@ -257,7 +257,7 @@ The episode delimitation is a new feature that allows you to set the observation
 
 This option is accessed from the "Scenes" section in the side menu. Before, you must have choosen selected videos to register.
 
-![900](img/web8.jpg)
+![900](img/web8.png)
 
 In this player there are several work areas:
 
@@ -298,7 +298,7 @@ In this screen several sections are shown:
 
 This option shows your register visually using simple charts. In the following example you can see how there is a moment in which no observation has been recorded yet in the episode 24,18.
 
-![900](img/web10.jpg)
+![900](img/web10.png)
 
 You can visually check the elements of the observation instrument in percentages and trendings in the different episodes of the record.
 
@@ -310,7 +310,7 @@ LINCE PLUS eases calcuting results automatically without using external tools, e
 
 This is one of the bigger new features of LINCE PLUS, because from now on an R language engine is included. If you navigate to the R-console option there is a component that allows you to calculate your desired results for your analysis.
 
-![900](img/web12.jpg)
+![900](img/web12.png)
 
 To be able to use it correctly you must have knowledge of the R programming language.
 
@@ -329,7 +329,7 @@ Unlike R, we need you to enter ";" at the end of each line. In R-Studio it is no
 
 This code shows you on the screen the matrix of the record divided by categories. You can observe the time in ms and the exact frame based on 21fps.
 
-![900](img/web13.jpg)
+![900](img/web13.png)
 
 The intention of Lince Plus is that this option can be used by experts.
 
@@ -339,7 +339,7 @@ If several observers participate in the project, LINCE PLUS allows you to calcul
 
 For its calculation, the observers must have the same episodes, number of episodes and an independent record of each of them.
 
-![900](img/web11.jpg)
+![900](img/web11.png)
 
 How to perform the calculation:
 
@@ -508,4 +508,4 @@ https://192.168.0.20:53715
 ```
 
 
-![400](img/ip2.jpg)
+![400](img/ip2.png)
