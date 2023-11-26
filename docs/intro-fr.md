@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# LINCE PLUS Desktop
+# LINCE PLUS Desktop (French)
 
 Welcome to LINCE PLUS Docs
 

@@ -72,10 +72,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
