@@ -9,15 +9,15 @@ Welcome to LINCE PLUS Docs
 ## Installation and use manual
 
 
-### Computer application for the automation of observational records
+### Aplicación informática para la automatización de registros de observación
 
-Lince is a free and open source project that arises from the university environment to facilitate research and dissemination. We thank you for facilitating its dissemination and citation since only then can we continue to grow and evolve the product.
+Lince es un proyecto gratuito y de código abierto que surge del entorno universitario para facilitar la investigación y la divulgación. Os damos las gracias por facilitar su difusión y su citación ya que sólo así podremos seguir haciendo crecer y evolucionar el producto.
 
 ![128](img/lince-icon.png)
 
-This software has been developed within the framework of the Projects: New approach of research in physical activity and sport from mixed methods perspective (Ministry of Science, Innovation, 2019-2021), Research Projects in Science and Technology applied to Activity (CSD, 2023) and it has been financed by the Institut Nacional d’Educació Física de Catalunya (INEFC)
+Este software se ha desarrollado en el marco de los Proyectos: New approach of research in physical activity and sport from mixed methods perspective (Ministry of Science, Innovation, 2019-2021); Integración entre datos observacionales y datos provenientes de sensores externos: Evolución del software LINCE PLUS y desarrollo de la aplicación móvil para la optimización del deporte y la actividad física beneficiosa para la salud [EXP\_74847] (Ministerio de Cultura y Deporte, Consejo Superior de Deporte y la Unión Europea 2023). Research Projects in Science and Technology applied to Activity (CSD, 2023) y lo financia el Institut Nacional d’Educació Física de Catalunya (INEFC)
 
-### Scientific articles
+### Artículos científicos
 
 - Soto, A, Camerino, O, Anguera, M.T., Iglesias, X., & Castañer, M., (2022): LINCE PLUS Software for Systematic Observation Studies of Sports and Health. Behavior Research Methods 54 , 1263–1271 , https://doi.org/10.3758/s13428-021-01642-1
 - Soto, A., Camerino, O., Iglesias, X., Anguera, M. T., & Castañer, M. (2019). LINCE PLUS: Research Software for Behaviour Video Analysis. Apunts. Educación Física y Deportes, 137, 149-153. https://doi.org/10.5672/apunts.2014-0983.es.(2019/3).137.11
@@ -26,7 +26,7 @@ This software has been developed within the framework of the Projects: New appro
 [](#trueinformation-about-lince-plus)Information about LINCE PLUS
 -----------------------------------------------------------------
 
-This information includes the initial steps to install and use Lince Plus without prior knowledge. LINCE PLUS is a program that evolves Lince including new features that increase the needs of the system, so it is designed to run on relatively powerful computers.
+LINCE PLUS es un programa que evoluciona continuamente e incluye nuevas funciones que aumentan las necesidades del sistema, por lo que está diseñado para funcionar en ordenadores relativamente potentes.
 
 [](#truesystem-requirements)System requirements
 -----------------------------------------------
@@ -49,24 +49,27 @@ Desired system requirements:
 * Intel i5 (7a gen) or higher
 
 
-LINCE PLUS runs an internal server that demands more computing power than expected in previous versions. All the information is totally protected under the administration resources of the system.
+LINCE PLUS ejecuta un servidor interno que exige más potencia de la prevista en versiones anteriores. Toda la información está totalmente protegida bajo los recursos de administración del sistema.
 
 
-[](#truelince-plus-installation)LINCE PLUS installation and use manual
+[](#truelince-plus-installation)Manual de instalación y uso de LINCE PLUS
 -------------------------------------------------------
 
-LINCE PLUS can be downloaded from the official website [https://observesport.github.io/lince-plus/](https://observesport.github.io/lince-plus/)
+Esta información incluye los pasos iniciales para instalar y utilizar Lince Plus sin conocimientos previos.
 
-When accessing the web it is recommended to download the latest available version. Each version includes new features and corrects problems that different users are reporting. To see the different versions and the changes introduced, click on the "release" section of the website.
+LINCE PLUS puede descargarse del sitio web oficial [https://observesport.github.io/lince-plus/](https://observesport.github.io/lince-plus/)
+
+Al acceder a la web se recomienda descargar la última versión disponible. Cada versión incluye nuevas funciones y corrige los problemas que señalan los usuarios. Para ver las distintas versiones y los cambios introducidos, haga clic en la sección "notas de la versión" del sitio web.
 
 
 ![download.jpg](img/download.jpg)
 
-### [](#truewindows-installation)Windows installation
+### [](#truewindows-installation)Instalación en Windows
 
-To install LINCE PLUS follow this instructions:
+Para instalar LINCE PLUS siga estas instrucciones:
 
-* Visit Lince repository website [http://observesport.github.io/lince-plus/](http://observesport.github.io/lince-plus/) to get the LINCE PLUS program in the "downloads" section by clicking on the link and execute it.
+* Visite el sitio web del repositorio Lince [http://observesport.github.io/lince-plus/](http://observesport.github.io/lince-plus/) para obtener el programa LINCE PLUS en la sección "descargas" haciendo clic en el enlace y ejecútelo. \*Si le aparece un mensaje de protección en windows 10, acéptalo y autorice la instalación. El software no es malicioso.
+* Pulse "siguiente", "aceptar condiciones" e "instalar" para preparar el proceso de instalación (Figura 1). A continuación le preguntará si existe una versión anterior, y en este caso tiene que seleccionar "modificar" (Figura 2).
 * If you get a protection message in windows 10, accept it and authorize the installation. The software is not malicious.
 
 
@@ -98,309 +101,329 @@ Once you have installed the java version, the installer will finish with the ins
 * The next step is to open the .zip file of Lince plus and execute directly.
 
 
-## Use of Lince Plus
+##  Utilización de Lince Plus
 
-In this section the functions of LINCE PLUS are explained. It is recommended to read it carefully and testing the actions that are exposed in the program itself to understand its operation.
+En esta sección se explican las funciones de LINCE PLUS. Se recomienda leerla detenidamente y probar las acciones que se exponen en el propio programa para entender su funcionamiento.
 
-To execute LINCE PLUS we can click the desktop shortcut or search it among the programs using the Start button.
-### Main page
+Para ejecutar LINCE PLUS podemos hacer clic en el acceso directo del escritorio o buscarlo entre los programas utilizando el botón Inicio.
 
-To execute it double click on the desktop icon and LINCE PLUS will start on the start screen.
+### Página principal
+
+Para ejecutarlo, haga doble clic en el icono del escritorio y LINCE PLUS se iniciará en la pantalla de inicio (Figura 7).
 
 ![400](img/loader.jpg)
 
-LINCE PLUS has been designed towards simplicity for easing user’s tasks, but, including the use of web technology requires that you keep in mind that it has two components: the desktop application and the web access that the application itself generates.
+LINCE PLUS ha sido diseñado pensando en la simplicidad para facilitar las tareas del usuario, pero, incluir el uso de tecnología web requiere que tengas en cuenta que tiene dos componentes: la aplicación de escritorio y el acceso web que la propia aplicación genera.
 
-To start executing it, double click on the lynx icon or executable and you will see the loading screen.
+Para empezar a ejecutarlo, haz doble clic en el icono de lynx o en el ejecutable y verás la pantalla de carga.
 
-### The environment of Lince Plus
+### El entorno de Lince Plus
 
-The LINCE PLUS environment is divided into two distinct areas:
+El entorno LINCE PLUS se divide en dos áreas diferenciadas:
 
-- The desktop or server application (Lince desktop). It is responsible for saving the information, managing the videos to observe and perform all kinds of imports or exports. It’s also used to manage the registration data.
+- La aplicación de escritorio o servidor (Lince escritorio). Se encarga de guardar la información, gestionar los vídeos a observar y realizar todo tipo de importaciones o exportaciones. También se utiliza para gestionar los datos de registro.
 
-- The web application (Lince web). It only works if LINCE PLUS desktop is running. It performs the interaction with the data and the analysis of the investigation.
+- La aplicación web (Lince web). Sólo funciona si LINCE PLUS escritorio se está ejecutando. Realiza la interacción con los datos y el análisis de la investigación.
 
-### The desktop application
+### La aplicación de escritorio
 
-From this application you can manage all the project information and have 4 work areas:
+Desde esta aplicación se puede gestionar toda la información del proyecto y disponer de 4 áreas de trabajo (Figura 8):
 
-- Menu area: From here you can manage the research projects, selected videos and manage the interaction with other applications that you may use.
+- Zona de menús: Desde aquí puedes gestionar los proyectos de investigación, los vídeos seleccionados y gestionar la interacción con otras aplicaciones que puedas utilizar.
 
-- Information area: In this area there is a summary of the project. If someone is connected you can see how scenes, observers or other data are changing.
+- Área de información: En esta zona hay un resumen del proyecto. Si alguien está conectado, puedes ver cómo cambian las escenas, los observadores u otros datos.
 
-- Article area: Cite us with the provided link and thank you in advance.
+- Área para artículos: Cítenos con el enlace proporcionado y gracias de antemano.
 
-- Lower or footer area: You can see program messages and in Windows it will load the last used project, besides shows the PORT in which it is running. This aspect is of vital importance and is detailed in the section "first steps with LINCE PLUS".
+- Zona inferior o pie de página: Puedes ver los mensajes del programa y en Windows cargará el último proyecto utilizado, además muestra el PUERTO en el que se está ejecutando. Este aspecto es de vital importancia y se detalla en el apartado "Primeros pasos con LINCE PLUS".
 
 ![600](img/desktop1.jpg)
 
-### The web application
+### La aplicación web
 
-From LINCE PLUS desktop toolbarm select "View" → "Open browser" and it will open a browser screen.
+En la barra de herramientas de LINCE PLUS escritorio, seleccione "Ver" → "Abrir navegador" y se abrirá una pantalla de navegador.
+
 
 ![400](img/desktop2.jpg)
 
-In the top bar of your browser you can detect the access address to the Lince web portal. The address will be a value similar to the following: http://192.168.1.10:555. If you look at Figure 8, in the bottom area you can see a value called "port". This value, together with the IP of the computer generates the specific access address to the web application.
+En la barra superior de su navegador podrá detectar la dirección de acceso al portal web de Lince. La dirección será un valor similar al siguiente: http://192.168.1.10:555. Al observar la Figura 8, en la zona inferior se puede ver un valor llamado "puerto". Este valor, junto con la IP del ordenador, genera la dirección específica de acceso a la aplicación web (Figura 10).
 
 ![900](img/web1.png)
 
-In this browser window you can see:
+En esta ventana del navegador se puede ver (Figura 10):
 
-- Top menu. Here you can see the running version, language selector and modify the general information of the project. On the top right you can see an option for choosing observer. These aspects are detailed in the section "First steps with LINCE PLUS" and in the section "Group work".
+- Menú superior. Aquí se puede ver la versión en ejecución, el selector de idioma y modificar la información general del proyecto. En la parte superior derecha se puede encontrar una opción para elegir un observador. Estos aspectos se detallan en la sección "Primeros pasos con LINCE PLUS" y en la sección "Trabajo en grupo".
 
-- Sidebar Menu. Through the icons of this area you can follow the different observational methodology stages, starting with the observation instrument creation and then selecting moments or episodes to record and analyze, proceeding to the analysis phase. From there, you have a simple charting engine that summarizes what you have observed. More over, a specific section for result interpretation, being able to program your results directly with R directly or finding the reliability among different observers statistically.
+- Menú de la barra lateral. A través de los iconos de esta área se pueden seguir las diferentes etapas de la metodología de observación, comenzando por la creación del instrumento de observación y, a continuación, la selección de los momentos o episodios que se registrarán y analizarán, pasando a la fase de análisis. A partir de ahí, dispones de un sencillo motor gráfico que resume lo que has observado. Además de una sección específica para la interpretación de resultados, pudiendo programar sus resultados directamente con Rdirectly o encontrar la fiabilidad entre diferentes observadores estadísticamente.
 
+Como pauta general, en cada pantalla hay una serie de iconos que permiten mover el panel, maximizar, minimizar o distribuir el área de trabajo. El icono superior derecho permite ampliar el panel a pantalla completa y, al volver a seleccionarlo, minimizarlo al tamaño original. El menú lateral puede ocultarse.
 
-As a general guideline, in each screen there is a series of icons that allow you to move the panel, maximize, minimize or distribute the work area. The upper right icon allows you to expand the panel to full screen, and when you select it again, minimize it to the original size. The side menu can be hidden.
+## Primeros pasos con LINCE PLUS
 
-## First steps with LINCE PLUS
+Cuando empiece a utilizar LINCE PLUS, debe tener claro el objetivo de su proyecto de investigación para poder generar una estructura válida del proceso. Lo primero que hay que tener en cuenta es lo siguiente:
 
-When you start using LINCE PLUS, you must be clear about the objective of your research project to be able to generate a valid structure of the process. The first thing that must be considered are the following:
+- ¿Cuántos observadores participan en el proyecto?
 
-- How many observers participate in the project?
+- ¿Se ha construido el instrumento de observación?
 
-- Has the observation instrument been built?
+- ¿Cuántos y qué vídeos veré? ¿Tienen la misma duración?
 
-- How many and which videos will I watch? Do they have the same duration?
+### Configuración del instrumento de observación
 
-### Observation instrument configuration
+La construcción del instrumento de observación es la primera etapa del proceso. Puede proponerse tanto para diseños unidimensionales como multidimensionales.
 
-The construction of the observation instrument is the first stage of the process. It can be proposed for both one-dimensional and multidimensional designs.
+La tipología del instrumento de observación incluye un sistema de categorías (habrá una dimensión o criterio), un formato de campo (habrá varias dimensiones o criterios y catálogos de conductas para cada uno de ellos), o un formato de campo combinado con sistemas de categorías (habrá varias dimensiones o criterios y sistemas de categorías o catálogos de conductas según las características de cada dimensión o criterio).
 
-The typology of the observation instrument includes a system of categories (there will be a dimension or criterion), a field format (there will be several dimensions or criteria and catalogs of behaviors for each of them), or a field format combined with category systems (there will be several dimensions or criteria and systems of categories or catalogs of behaviors according to the characteristics of each dimension or criterion).
-
-With the CONFIGURE option in the left side menu you can generate the structure of the observation instrument, first specifying the criteria / dimensions and then the categories / catalogs of behavior very easily, and sorting them intuitively using the icons shown in the image. Pressing the SAVE button displays a confirmation message.
+Con la opción CONFIGURAR del menú lateral izquierdo se puede generar la estructura del instrumento de observación, especificando primero los criterios / dimensiones y después las categorías /catálogos de comportamiento de forma muy sencilla, y ordenándolos intuitivamente mediante los iconos que se muestran en la imagen. Al pulsar el botón GUARDAR aparece un mensaje de confirmación.
 
 ![900](img/web5.png)
 
-Figure 11: Observation instrument configuration
+Figura 11: Configuración del instrumento de observación
 
-The observation instrument will be available to all users connected to the same project.
+El instrumento de observación estará disponible para todos los usuarios conectados al mismo proyecto.
 
-#### Automatic configuration of the observation instrument
+#### Configuración automática del instrumento de observación
 
-LINCE PLUS allows you to generate an instrument automatically, creating the keys and coding it quickly and easily. We recommend this option if you want to advance quickly or prepare tests that you want to edit later. To do so, an empty instrument must be generated, like the one in the attached image, and when saving, it enters all the fields automatically, calling them sequentially.
+LINCE PLUS le permite generar un instrumento automáticamente, creando las claves y codificándolo de forma rápida y sencilla. Recomendamos esta opción si desea avanzar rápidamente o preparar pruebas que desee editar más tarde. Para ello, hay que generar un instrumento vacío, como el de la imagen adjunta, y al guardarlo, introduce todos los campos automáticamente, llamándolos de forma secuencial.
 
-Simply select the options to add with the + symbol and generate all the criteria / dimensions and categories / behaviors that are desired without entering any text or only the values that interest. This option is very useful if the denomination is not yet definitive or if you want to start directly completely inductively. In the following image you can see the generated result.
+Basta con seleccionar las opciones a añadir con el símbolo + y generar todos los criterios / dimensiones y categorías/comportamientos que se deseen sin introducir ningún texto o sólo los valores que interesen. Esta opción es muy útil si la denominación aún no es definitiva o si desea empezar directamente de forma totalmente inductiva. En la siguiente imagen puede ver el resultado generado.
 
 ![900](img/web6.png)
 
-You can see how by selecting SAVE the information is automatically filled. Then, you can edit the desired values, but without forgetting SAVE before leaving this option.
+Puede ver cómo al seleccionar GUARDAR la información se rellena automáticamente. A continuación, puede editar los valores deseados, pero sin olvidar GUARDAR antes de salir de esta opción.
 
 ![900](img/web7.jpg)
 
-### Video selection
+### Selección de vídeos
 
-LINCE PLUS allows you to play simultaneously several videos.
+LINCE PLUS te permite reproducir simultáneamente varios vídeos.
 
-To access your selection you must use the Lince desktop application. In the top menu there is the tab "Video" → "Select videos". If you want to delete the entire selection, there is also the option for it. At the bottom of the screen there is a tab option called "Selected videos" which contains an updated selection. You can also see in "project info" how many videos are selected.
+Para acceder a su selección debe utilizar la aplicación Lince escritorio. En el menú superior está la pestaña "Vídeo" → "Seleccionar vídeos". Si desea borrar toda la selección, también existe la opción para ello. En la parte inferior de la pantalla hay una pestaña llamada "Vídeos seleccionados" que contiene una selección actualizada. También puedes ver en "información del proyecto" cuántos vídeos están seleccionados.
 
 ![900](img/desktop3.jpg)
 
-In the video selector the list of supported formats is displayed. As LINCE PLUS uses the web browser for playing videos, the video format must be reproducible by the user’s browser. In case other formats are used, you should convert it to a valid format.
+En el selector de vídeo aparece la lista de formatos compatibles. Dado que LINCE PLUS utiliza el navegador web para reproducir vídeos, el formato de vídeo debe ser reproducible por el navegador del usuario. En caso de que se utilicen otros formatos, deberá convertirlo a un formato válido.
 
 ![900](img/videotypes.png)
 
-If several videos are shown simultaneously, make sure they have the same duration, otherwise LINCE PLUS will not be able to know which temporary mark of the video you want to use for register.
+Si se muestran varios vídeos simultáneamente, asegúrese de que tienen la misma duración, de lo contrario LINCE PLUS no podrá saber qué marca temporal del vídeo desea utilizar para registrar.
 
-Another aspect to consider is the size of the video. All the selected videos are loaded into the computer memory simultaneously. If several 2GB videos are selected, the computer must be able to play them.
+Otro aspecto a tener en cuenta es el tamaño del vídeo. Todos los vídeos seleccionados se cargan simultáneamente en la memoria del ordenador. Si se seleccionan varios vídeos de 2 GB, el ordenador debe poder reproducirlos.
 
-### Number of observers
+### Número de observadores
 
-If there is only one observer in the project, it is not necessary to fill in this configuration, and the program will act transparently. However, if 2 or more observers participate, it must be specified from the beginning.
+Si sólo hay un observador en el proyecto, no es necesario rellenar esta configuración y el programa actuará de forma transparente. Sin embargo, si participan 2 o más observadores, deberá especificarse desde el principio.
 
 ![900](img/web2.png)
 
-In the top button of the web environment there is an option called "Project information". It is important to define from the beginning how many observers are going to make the observation, and you must fill in the different fields and then select the button on the top right to "save everything".
+En el botón superior del entorno web hay una opción llamada "Información del proyecto". Es importante definir desde el principio cuántos observadores van a realizar la observación, y para ello debe rellenar los diferentes campos y luego seleccionar el botón de la parte superior derecha para "guardar todo".
 
 ![900](img/web3.png)
 
-Now you have to navigate to another option to update the page and select the right button in the top bar and select "Change Observer".
+Ahora hay que navegar a otra opción para actualizar la página y seleccionar el botón derecho en la barra superior y seleccionar "Cambiar Observador".
 
-To change the observer, select one and mark it as active. It will show you the contained records you have had analyzed and the temporary marks.
+Para cambiar de observador, seleccione uno y márquelo como activo. Le mostrará los registros contenidos que ha hecho analizar y las marcas temporales.
 
 ![500](img/web4.png)
 
-### Project information
+### Información sobre el proyecto
 
-Once we have configured videos and set up project information, we recommend you to save your project to avoid losing data. To do this, select the option Project → Save As
+Una vez configurados los vídeos y la información del proyecto, le recomendamos que guarde el proyecto para evitar perder datos. Para ello, seleccione la opción Proyecto → Guardar como
 
 ![900](img/desktop4.jpg)
 
-When closing Lince Desktop it will ask you to save the project, although it is recommended to keep saving the project continuously.
+Al cerrar Lince Escritorio le pedirá que guarde el proyecto, aunque se recomienda seguir guardándolo continuamente.
 
-In Windows environment, when LINCE PLUS starts for the next time, it will load the last saved project automatically. This option is very useful to continue working on the same research.
+En el entorno Windows, la próxima vez que se inicie LINCE PLUS, se cargará automáticamente el último proyecto guardado. Esta opción es muy útil para seguir trabajando en la misma investigación.
 
-If you have a project built under Lince 1.4 or earlier, it also supports including it to your research with the record file or with the instrument file. You can see this on detail in the section of "importing and exporting to external tools".
+Si tiene un proyecto creado con Lince 1.4 o anterior, también puede incluirlo en su investigación con el archivo de registro o con el archivo de instrumento. Puede verlo en detalle en la sección de "importación y exportación a herramientas externas".
 
-### Delimitation of observation episodes
+### Delimitación de los episodios de observación
 
-The episode delimitation is a new feature that allows you to set the observational sampling to materialize. The videos are previewed, where you can select what you want to observe and you can include additional comments.
+La delimitación de episodios es una nueva función que permite establecer el muestreo observacional para materializarlo. Los vídeos se previsualizan. En ese momento puede seleccionar lo que quiere observar e incluir comentarios adicionales.
 
-This option is accessed from the "Scenes" section in the side menu. Before, you must have choosen selected videos to register.
+A esta opción se accede desde la sección "Escenas" del menú lateral. Antes, debe haber seleccionado los vídeos que desea registrar.
 
 ![900](img/web8.png)
 
-In this player there are several work areas:
+En este reproductor hay varias áreas de trabajo:
 
-- A synchronized video player that will play all the included videos simultaneously. The SYNC button allows you to synchronize the videos on the same playback moment as in the first video. You can also control the playback speed for all videos.
+- Un reproductor de vídeo sincronizado que reproducirá simultáneamente todos los vídeos incluidos. El botón SYNC permite sincronizar los vídeos en el mismo momento de reproducción que en el primer vídeo. También puedes controlar la velocidad de reproducción de todos los vídeos.
 
-- An individual control for each video, which allows you to control all aspects, including playback speed.
+- Un control individual para cada vídeo, que permite controlar todos los aspectos, incluida la velocidad de reproducción.
 
-- A selector of how many videos you want to watch together and change its disposition and default size.
+- La opción de seleccionar cuántos vídeos se quieren ver juntos y cambiar su disposición y tamaño predeterminado.
 
-- A menu of detected episodes. In each episode you can:
-  - Play: A red button that plays instantly the video time that has been saved.
-  - Edit: An edit button to add a comment.
-  - Delete: Allows you to delete the entered scene and the observed records it contains
+- Un menú de episodios detectados. En cada episodio se puede:
 
-### Analysis
+  - Reproducir: Un botón rojo que reproduce instantáneamente el tiempo de vídeo que se ha guardado.
+  - Editar: Un botón de edición para añadir un comentario.
+  - Borrar: Permite eliminar la escena introducida y los registros observados que contiene
 
-This option is the main work area for observation. It has been designed to simplify it to the maximum and to be similar to the previous version of Lince. All the episodes introduced previously with the observed records are found.
+
+### Análisis
+
+Esta opción es la principal área de trabajo para la observación. Se ha diseñado para simplificarlo al máximo y para que sea similar a la versión anterior de Lince. Se encuentran todos los episodios introducidos previamente con los registros observados.
 
 ![900](img/web9.jpg)
 
-In this screen several sections are shown:
+En esta pantalla se muestran varias secciones:
 
-- Player zone: The player has the same conditions as the previous one and in the right lateral zone you will see the observation instrument.
+- Zona de reproducción: El reproductor tiene las mismas condiciones que el anterior y en la zona lateral derecha se ve el instrumento de observación.
 
-- Registration area: All the selected episodes are shown with the observation values registered. You can order and edit all values. If you wish to modify an observation, press the red button and set the new observation in the instrument area. Save data for keeping changes without changing your timing.
+- Zona de inscripción: Todos los episodios seleccionados se muestran con los valores de observación registrados. Puede ordenar y editar todos los valores. Si desea modificar una observación, pulse el botón rojo y fije la nueva observación en el área del instrumento. Guarde los datos para mantenerlos actualizados sin modificar su calendario.
 
-- Instrument zone: Here you can mark what is being observed in the videos. When saving a new episode it generates and introduces the temporary mark of the first video, similar to the episodes.
+- Zona de instrumentos: Aquí puede marcar lo que se observa en los vídeos. Al guardar un nuevo episodio se genera e introduce la marca temporal del primer vídeo, similar a la de los episodios.
 
-- Adaptative zone: These are controls that allow you to adapt the work area for video and instrument, changing size and with a vertical line you can move.
+- Zona de adaptación: Son controles que permiten adaptar el área de trabajo para vídeos e instrumentos, cambiando el tamaño y con una línea vertical que se puede mover.
 
-### Register charts
+### Tablas de registro
 
-This option shows your register visually using simple charts. In the following example you can see how there is a moment in which no observation has been recorded yet in the episode 24,18.
+Esta opción muestra su registro visualmente mediante gráficos sencillos. En el siguiente ejemplo puede ver cómo hay un momento en el que todavía no se ha registrado ninguna observación en el episodio 24,18.
 
 ![900](img/web10.png)
 
-You can visually check the elements of the observation instrument in percentages and trendings in the different episodes of the record.
+Puede comprobar visualmente los elementos del instrumento de observación en porcentajes y tendencias en los distintos episodios del registro.
 
-### Data analysis
+### DAnálisis de datos
 
-LINCE PLUS eases calcuting results automatically without using external tools, either by using the R programming language or by the automatic comparison of several observers for the calculation of the agreement index, including data quality control.
+LINCE PLUS facilita el cálculo automático de los resultados sin necesidad de utilizar herramientas externas, ya sea mediante el uso del lenguaje de programación R o mediante la comparación automática de varios observadores para el cálculo del índice de concordancia, incluido el control de calidad de los datos.
 
-#### Statistical results using R
+#### Estadísticas
 
-This is one of the bigger new features of LINCE PLUS, because from now on an R language engine is included. If you navigate to the R-console option there is a component that allows you to calculate your desired results for your analysis.
+#### Resultados estadísticos con R
+
+Esta es una de las grandes novedades de LINCE PLUS, ya que a partir de ahora se incluye un motor de lenguaje R. Si navega a la opción R-console hay un componente que le permite calcular los resultados deseados para su análisis.
 
 ![900](img/web12.png)
 
-To be able to use it correctly you must have knowledge of the R programming language.
+Para poder utilizarlo correctamente es necesario tener conocimientos del lenguaje de programación R.
 
-- In the left area there is an area to enter your source code and a button to execute it. In the upper area there are the variables that are loaded into R execution context from Lince which you can be use in your code. Pressing EXECUTE will show the results pane.
+- En el área de la izquierda hay una zona para introducir el código fuente y un botón para ejecutarlo. En el área superior están las variables que se cargan en el contexto de ejecución de R desde Lince y que puedes utilizar en tu código. Al pulsar EJECUTAR se mostrará el panel de resultados.
 
-- In the right area you can see the text with the results of your calculation.
+- En la zona derecha puede ver el texto con los resultados de su cálculo.
 
-- In the lower area there is a HELP section to expand the information with some pieces of advice.
+- En la zona inferior hay una sección de AYUDA para ampliar la información con algunos consejos.
 
-The graphics of R are not included, but can be accessed from R-Studio directly. You can consult the section of special features for it.
+Los gráficos de R no están incluidos, pero se puede acceder a ellos directamente desde R-Studio. Puede consultar la sección de características especiales para ello.
 
-Unlike R, we need you to enter ";" at the end of each line. In R-Studio it is not mandatory.
+A diferencia de R, necesitamos que introduzca ";" al final de cada línea. En R-Studio no es obligatorio.
 
 **print(linceDataByCategory);**
 
-This code shows you on the screen the matrix of the record divided by categories. You can observe the time in ms and the exact frame based on 21fps.
+Este código le muestra en pantalla la matriz del registro dividida por categorías. Puedes observar el tiempo en ms y el fotograma exacto basado en 21 fps.
 
 ![900](img/web13.png)
 
-The intention of Lince Plus is that this option can be used by experts.
+La intención de Lince Plus es que esta opción pueda ser utilizada por expertos.
 
-#### Calculation of the agreement between several observers
+#### Cálculo de la concordancia entre varios observadores
 
-If several observers participate in the project, LINCE PLUS allows you to calculate the agreement between the different observers and to know if they are concordant in the registration of the same aspects in the observation, being able to calculate the agreement rates through Kappa or Krippendorf and generate the contingency matrix between your observations.
+Si en el proyecto participan varios observadores, LINCE PLUS le permite calcular la concordancia entre los diferentes observadores y saber si son concordantes en el registro de los mismos aspectos en la observación, pudiendo calcular los índices de concordancia mediante Kappa o Krippendorf y generar la matriz de contingencia entre sus observaciones.
 
-For its calculation, the observers must have the same episodes, number of episodes and an independent record of each of them.
+Para su cálculo, los observadores deben tener los mismos episodios, número de episodios y un registro independiente de cada uno de ellos.
+
 
 ![900](img/web11.png)
 
-How to perform the calculation:
+Cómo realizar el cálculo:
 
-1. In the left side menu, select the "+" button to preview the observer’s record. You can select several times and see how the color changes from green to white. When it is green, the observer is selected.
+1. En el menú de la izquierda, seleccione el botón "+" para previsualizar el registro del observador. Puede seleccionar varias veces y ver cómo el color cambia de verde a blanco. Cuando está verde, el observador está seleccionado.
 
-1. Select another observer and access the desired result in the top menú
+1. Seleccione otro observador y acceda al resultado deseado en el menú superior
 
-1. In "Calculate results", select the desired option (Kappa, Krippendorf coefficient, …​)
+1. En "Calcular resultados", seleccione la opción deseada (Kappa, coeficiente de Krippendorf...)
 
-1. Press EXECUTE to visualize the result.
+1. Pulse EJECUTAR para visualizar el resultado.
 
-Future versions of LINCE PLUS will force you to register identical episodes.
+Las futuras versiones de LINCE PLUS le obligarán a registrar episodios idénticos.
 
-## Import and export of data
+## Importación y exportación de datos
 
-LINCE PLUS allows the integration of external registries and other applications.
+LINCE PLUS permite integrar registros externos y otras aplicaciones.
 
 ![400](img/desktop5.jpg)
 
-- Import
-  - Hoisan
-  - Instrument and record of Lince 1
-  - Import an external LINCE PLUS project. It allows you to open projects from other computers without modifying your selected videos.
-  - Import an external observational record. This option generates a new observer.
-- Export
-  - Theme 5 and 6
-  - Excel, using CSV with ";" separator or "," for all systems
-  - SAS
-  - GSEQ
-  - Lince 1, both instrument and record.
+Importar
 
-## Connecting other devices
-You can use Lince desktop on your computer and watch your videos comfortably from another device or tablet. In smartphone too, but the amount of information that will manage will not be comfortable to use.
+- Hoisan
 
-Remote access is very simple, since you only have to access the *direction* of your machine with the *port* you have:
+- Instrumento y registro de Lince 1
 
-- The address of your machine is your ip value. To discover it, access the section "Discover your ip"
-- The port is informed every time LINCE PLUS starts and always changes due to security aspects.
+- Importe un proyecto LINCE PLUS externo. Permite abrir proyectos de otros ordenadores sin modificar los vídeos seleccionados.
 
-The address that you have to open in your browser is similar to the following:
+- Importar un registro de observación externo. Esta opción genera un nuevo observador.
+
+
+Exportar
+
+- Temas 5 y 6
+
+- Excel, utilizando CSV con el separador ";" o "," para todos los sistemas
+
+- SAS
+
+- GSEQ
+
+- Lince 1, tanto el instrumento como el registro.
+
+
+## Conexión de otros dispositivos
+
+Puedes utilizar Lince escritorio en su ordenador y ver sus vídeos cómodamente desde otro dispositivo o tablet. En smartphone también, pero la cantidad de información que manejará no será cómoda de usar.
+
+El acceso remoto es muy sencillo, ya que sólo tiene que acceder a la dirección de su máquina con el puerto que tenga:
+
+- La dirección de su máquina es su valor ip. Para descubrirlo, acceda a la sección "Descubra su ip"
+
+- El puerto es informado cada vez que se inicia LINCE PLUS y siempre cambia por motivos de seguridad.
+
+La dirección que debe abrir en su navegador es similar a la siguiente:
 
 [http://10.0.75.1:53715](http://10.0.75.1:53715)
 
 ```markdown
 - http://{IP}:{PUERTO}
 - Example: http://10.0.75.1:53715
-- If you have questions about how to connect see the section "discover your IP"
+- Si tiene dudas sobre cómo conectarse consulte la sección "descubra su IP"
 ```
 
-The port is reported in the application, in the lower frame just on startup.
+El puerto se informa en la aplicación, en el marco inferior justo al arrancar.
 
 
 ![400](img/puerto.jpg)
 
-## Team work
-LINCE PLUS allows a wide range of possibilities under a simple work system and, especially, allowing several researchers to collaborate simultaneously.
+## Trabajo en equipo
 
-Here are some of these aspects:
+LINCE PLUS permite un amplio abanico de posibilidades bajo un sistema de trabajo sencillo y, sobre todo, permitiendo la colaboración simultánea de varios investigadores.
 
-- Each observer generated in the "Project information" section generates a new observer profile.
-- Each observer has an observation record, independent from the rest.
+He aquí algunos de estos aspectos: - Cada observador generado en la sección "Información del proyecto" genera un nuevo perfil de observador. - Cada observador tiene un registro de observación, independiente del resto.
 
-This allows you to perform simultaneous observations within several observers, generating several scenarios:
+Esto le permite realizar observaciones simultáneas con varios observadores, generando varios escenarios:
 
-- Several researchers working at the same time with each observer in different time zones of the video to accelerate the work. This facilitates the observation of the video splitting the work to be done.
+- Varios investigadores trabajando al mismo tiempo con cada observador en diferentes zonas horarias del vídeo para acelerar el trabajo. Esto facilita la observación del vídeo dividiendo el trabajo a realizar.
 
-- If we generate several observers, each one of them can try to observe the same episodes and the same details, for analyze later if each observer visualizes the same details calculating their agreement index.
+- Si generamos varios observadores, cada uno de ellos puede intentar observar los mismos episodios y los mismos detalles, para analizar posteriormente si cada observador visualiza los mismos detalles calculando su índice de concordancia.
 
-- Generate several observers, who can register diferent details of the video. An example would be analyzing a competition in which 2 teams participate, so that each observer registers one of the teams.
+- Generar varios observadores, que pueden registrar diferentes detalles del vídeo. Un ejemplo sería analizar una competición en la que participan 2 equipos, de modo que cada observador registre a uno de los equipos.
 
-All this can be done simultaneously thanks to collaborative work.
+Todo esto puede hacerse simultáneamente gracias al trabajo en colaboración.
 
-If there are doubts about how to connect, consult the section "Discover your IP"
 
-## Connection of R Studio to Lince plus
 
-If you want more statistical power, or generating reports with more complex graphics, you can connect R Studio to Lince. For this you can follow the advice you have in the section "Console R" in the web interface.
+Si tiene dudas sobre cómo conectarse, consulte la sección "Descubra su IP"
 
-In summary, the process is as follows:
+## Conexión de R Studio a Lince plus
 
-- First, install the development tools in R-studio using the following command in an script window. This process may take a few minutes.
+Si desea más potencia estadística, o generar informes con gráficos más complejos, puede conectar R Studio a Lince. Para ello puede seguir los consejos del apartado "Consola R" en la interfaz web.
+
+En resumen, el proceso es el siguiente:
+
+- En primer lugar, instale las herramientas de desarrollo en R-studio utilizando el siguiente comando en una ventana de diálogo. Este proceso puede durar unos minutos.
 
 install.packages("devtools")
 
-Then prove that it works correctly with the following example:
+- A continuación, compruebe que funciona correctamente con el siguiente ejemplo:
 
 ```bash
 library(jsonlite)
@@ -408,10 +431,9 @@ hadley_orgs <- fromJSON("https://api.github.com/users/hadley/orgs")
 print(hadley_orgs)
 ```
 
+Esto permite conectarse a una página web externa y consultar datos, generando la variable 'hadley\_orgs', con los datos de la api rest.
 
-This allows you to connect to an external web page and consult data, generating the variable 'hadley\_orgs', with the data of the api rest.
-
-- Next, we will connect to LINCE PLUS, for this you can access section 5 of the R console or connect directly to the following code by changing the port with which the LINCE PLUS application informs you as shown in the image.
+- A continuación nos conectaremos a LINCE PLUS, para ello puede acceder a la sección 5 de la consola de R o conectarse directamente al siguiente código cambiando el puerto con el que le informa la aplicación LINCE PLUS como se muestra en la imagen.
 
 ```bash
 library(jsonlite)
@@ -419,43 +441,44 @@ lince_data <- fromJSON("http://localhost:53715/register/get")
 print(lince_data)
 ```
 
-Observe in the image how the number "53715" matches the one reported by the Lince desktop application
+Observe en la imagen como el número "53715" coincide con el registrado en la aplicación Lince escritorio.
 
 ![400](img/puerto.jpg)
 
-**Problems during program installation**
+**Problemas durante la instalación del programa**
 
-If any incompatibility or problem occurs at the start of Lince Plus, it is probably due to the incompatibility of the java version.
+Si se produce alguna incompatibilidad o problema al iniciar Lince Plus, probablemente se deba a la incompatibilidad de la versión de java.
 
-In this case, it is recommended to check the java version and perform the installation manually. To proceed with this, we will do the following:
+En este caso, se recomienda comprobar la versión de java y realizar la instalación manualmente. Para ello, haremos lo siguiente:
 
 ![400](img/trouble1.jpg)
 
-- Windows: In the windows icon, we will search 'execute'. You can also press "key **windows + r** ". Enter " **cmd** " and open a terminal.
+- Windows: En el icono de windows, buscaremos 'ejecutar'. También puedes pulsar "tecla windows +r ". Introduzca " cmd " y abra un terminal.
 
-- MacOs: With the key **cmd + space** a wizard opens. Enter " **terminal** " and click on the result.
+- MacOs: Con la tecla cmd + espacio se abre un asistente. Introduzca " terminal " y haga clic en el resultado.
 
-In both systems, a dark text screen opens. On this screen enter "java -version".
+En ambos sistemas, se abre una pantalla de texto oscuro. En esta pantalla introduzca "java -version".
 
-You will know if you have it installed properly or not.
+Sabrá si está bien instalado o no.
+
 ![400](img/trouble2.jpg)
 
-If the result is not recognized, it is because you do not have it installed.
+Si no reconoce el resultado, es porque no está instalado.
 
+**Descubra su IP**
 
-**Discover your IP**
+La ip es un identificador de su ordenador y cambia en cada red a la que se conecta. Si trabaja en la oficina y en casa, tendrá IP diferentes.
 
-The ip is an identifier of your computer and it changes in each network which you are connected. If you work in the office and at home, you will have different IPs.
+Para saber qué ip tiene, abra un terminal (se detalla en el apartado anterior), e introduzca el siguiente valor:
 
-To know what ip you have, open a terminal (It is detailed in the previous section), and enter the following value:
+- En el caso de windows " ipconfig "
 
-- In the case of windows " **ipconfig** "
-
-- In case of macos or linux " **ifconfig** "
+- En caso de macOS o linux " ifconfig "
 
 ![400](img/ip.jpg)
 
-Your accessible ip can be shared with other devices or with other users to start collaborative work. In the case of the image, it would be accessed through the following address:
+Su ip de acceso puede ser compartida con otros dispositivos o con otros usuarios para iniciar un trabajo colaborativo. En el caso de la imagen, se accedería a través de la siguiente dirección
+
 ```bash
 https://192.168.0.20:53715
 ```
