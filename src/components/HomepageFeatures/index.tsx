@@ -13,7 +13,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'LINCE PLUS desktop',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        Svg: require('@site/static/img/software-svgrepo-com.svg').default,
         description: (
             <>
                 Our free tool is the analysis tool which has been an standard for many observational studies. Discover
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'LINCE PLUS app',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        Svg: require('@site/static/img/mobile-app-phone-smartphone-svgrepo-com.svg').default,
         description: (
             <>
                 Our new application integrates Movesense sensor and allows you to integrate your movements and
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'LINCE PLUS cloud',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/cloud-svgrepo-com.svg').default,
         description: (
             <>
                 Currently being build our cloud desktop will allow to use LINCE PLUS as a service.

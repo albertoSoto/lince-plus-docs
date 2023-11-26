@@ -1,0 +1,38 @@
+{
+  "link.title.Other links": {
+    "message": "Other links",
+    "description": "The title of the footer links column with title=Other links in the footer"
+  },
+  "link.title.Please, cite us": {
+    "message": "Please, cite us",
+    "description": "The title of the footer links column with title=Please, cite us in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.LINCE APP": {
+    "message": "LINCE APP",
+    "description": "The label of footer link with label=LINCE APP linking to https://www.lince-plus.com/products/lince-app"
+  },
+  "link.item.label.LINCE PLUS desktop": {
+    "message": "LINCE PLUS desktop",
+    "description": "The label of footer link with label=LINCE PLUS desktop linking to https://www.lince-plus.com/products/lince-desktop"
+  },
+  "link.item.label.LINCE Now": {
+    "message": "LINCE Now",
+    "description": "The label of footer link with label=LINCE Now linking to https://www.lince-plus.com/products/lince-now"
+  },
+  "link.item.label.(2022) LINCE PLUS software for systematic observational studies in sports and health": {
+    "message": "(2022) LINCE PLUS software for systematic observational studies in sports and health",
+    "description": "The label of footer link with label=(2022) LINCE PLUS software for systematic observational studies in sports and health linking to https://doi.org/10.3758/s13428-021-01642-1"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/observesport/lince-plus"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 LINCE PLUS, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

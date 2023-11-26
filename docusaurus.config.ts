@@ -8,15 +8,16 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://lince-plus.github.io',
+  url: 'https://albertoSoto.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/lince-plus-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'albertoSoto', // Usually your GitHub org/user name.
-  projectName: 'lince-plus.github.io', // Usually your repo name.
+  projectName: 'lince-plus-docs', // Usually your repo name.
+  deploymentBranch: "deployment",
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
@@ -24,8 +25,9 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es','en'],
+    defaultLocale: 'en',
+    // locales: ['es','en'],
+    locales: ['es','en','fr','de'],
   },
 
   presets: [
@@ -39,23 +41,30 @@ const config: Config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl:
+        //   //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-PGTBMEJ65G',
+        anonymizeIP: true,
+      },
+    ],
   ],
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/linceplus-social-card.png',
+    image: 'img/lince-social-card.png',
     navbar: {
       title: 'LINCE PLUS',
       logo: {
@@ -63,6 +72,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -84,12 +97,16 @@ const config: Config = {
           title: 'Other links',
           items: [
             {
-              label: 'Main website',
-              to: 'https://www.lince-plus.ocm',
+              label: 'LINCE APP',
+              to: 'https://www.lince-plus.com/products/lince-app',
             },
             {
-              label: 'LINCE PLUS Cloud',
-              to: 'https://www.lince-plus.ocm',
+              label: 'LINCE PLUS desktop',
+              to: 'https://www.lince-plus.com/products/lince-desktop',
+            },
+            {
+              label: 'LINCE Now',
+              to: 'https://www.lince-plus.com/products/lince-now',
             },
           ],
         },
@@ -97,8 +114,8 @@ const config: Config = {
           title: 'Please, cite us',
           items: [
             {
-              label: 'Main website',
-              to: 'https://www.lince-plus.ocm',
+              label: '(2022) LINCE PLUS software for systematic observational studies in sports and health',
+              to: 'https://doi.org/10.3758/s13428-021-01642-1',
             }
           ],
         },
@@ -129,7 +146,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} LINCE PLUS, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
