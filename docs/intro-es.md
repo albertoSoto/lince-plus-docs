@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 ---
- 
-# LINCE PLUS Desktop
+
+# LINCE PLUS ES
 
 Welcome to LINCE PLUS Docs
 
