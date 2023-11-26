@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# LINCE PLUS DE
+# LINCE PLUS Desktop
 
 Welcome to LINCE PLUS Docs
 
@@ -66,7 +66,7 @@ When accessing the web it is recommended to download the latest available versio
 
 To install LINCE PLUS follow this instructions:
 
-* Visit Lince repository website [http://observesport.github.io/lince-plus/](http://observesport.github.io/lince-plus/) to get the LINCE PLUS program in the "downloads" section by clicking on the link and execute it. 
+* Visit Lince repository website [http://observesport.github.io/lince-plus/](http://observesport.github.io/lince-plus/) to get the LINCE PLUS program in the "downloads" section by clicking on the link and execute it.
 * If you get a protection message in windows 10, accept it and authorize the installation. The software is not malicious.
 
 
@@ -86,7 +86,7 @@ To install LINCE PLUS follow this instructions:
 
 Once you have installed the java version, the installer will finish with the installation of LINCE PLUS. Its icon will be placed your desktop for execution.
 
-### **Mac OS installation**
+### Mac OS installation
 
 * We are continuously building and improving the installer
 * Due to license cost, MacOs Installer will be blocked on the first install
@@ -98,11 +98,13 @@ Once you have installed the java version, the installer will finish with the ins
 * The next step is to open the .zip file of Lince plus and execute directly.
 
 
-## **Use of Lince Plus**
+## Use of Lince Plus
+
 In this section the functions of LINCE PLUS are explained. It is recommended to read it carefully and testing the actions that are exposed in the program itself to understand its operation.
 
 To execute LINCE PLUS we can click the desktop shortcut or search it among the programs using the Start button.
-### **Main page**
+### Main page
+
 To execute it double click on the desktop icon and LINCE PLUS will start on the start screen.
 
 ![400](img/loader.jpg)
@@ -110,13 +112,17 @@ To execute it double click on the desktop icon and LINCE PLUS will start on the 
 LINCE PLUS has been designed towards simplicity for easing user’s tasks, but, including the use of web technology requires that you keep in mind that it has two components: the desktop application and the web access that the application itself generates.
 
 To start executing it, double click on the lynx icon or executable and you will see the loading screen.
-### **The environment of Lince Plus**
+
+### The environment of Lince Plus
+
 The LINCE PLUS environment is divided into two distinct areas:
 
 - The desktop or server application (Lince desktop). It is responsible for saving the information, managing the videos to observe and perform all kinds of imports or exports. It’s also used to manage the registration data.
 
 - The web application (Lince web). It only works if LINCE PLUS desktop is running. It performs the interaction with the data and the analysis of the investigation.
-### **The desktop application**
+
+### The desktop application
+
 From this application you can manage all the project information and have 4 work areas:
 
 - Menu area: From here you can manage the research projects, selected videos and manage the interaction with other applications that you may use.
@@ -129,7 +135,8 @@ From this application you can manage all the project information and have 4 work
 
 ![600](img/desktop1.jpg)
 
-### **The web application**
+### The web application
+
 From LINCE PLUS desktop toolbarm select "View" → "Open browser" and it will open a browser screen.
 
 ![400](img/desktop2.jpg)
@@ -147,7 +154,7 @@ In this browser window you can see:
 
 As a general guideline, in each screen there is a series of icons that allow you to move the panel, maximize, minimize or distribute the work area. The upper right icon allows you to expand the panel to full screen, and when you select it again, minimize it to the original size. The side menu can be hidden.
 
-## **First steps with LINCE PLUS**
+## First steps with LINCE PLUS
 
 When you start using LINCE PLUS, you must be clear about the objective of your research project to be able to generate a valid structure of the process. The first thing that must be considered are the following:
 
@@ -157,7 +164,8 @@ When you start using LINCE PLUS, you must be clear about the objective of your r
 
 - How many and which videos will I watch? Do they have the same duration?
 
-### **Observation instrument configuration**
+### Observation instrument configuration
+
 The construction of the observation instrument is the first stage of the process. It can be proposed for both one-dimensional and multidimensional designs.
 
 The typology of the observation instrument includes a system of categories (there will be a dimension or criterion), a field format (there will be several dimensions or criteria and catalogs of behaviors for each of them), or a field format combined with category systems (there will be several dimensions or criteria and systems of categories or catalogs of behaviors according to the characteristics of each dimension or criterion).
@@ -170,7 +178,8 @@ Figure 11: Observation instrument configuration
 
 The observation instrument will be available to all users connected to the same project.
 
-#### **Automatic configuration of the observation instrument**
+#### Automatic configuration of the observation instrument
+
 LINCE PLUS allows you to generate an instrument automatically, creating the keys and coding it quickly and easily. We recommend this option if you want to advance quickly or prepare tests that you want to edit later. To do so, an empty instrument must be generated, like the one in the attached image, and when saving, it enters all the fields automatically, calling them sequentially.
 
 Simply select the options to add with the + symbol and generate all the criteria / dimensions and categories / behaviors that are desired without entering any text or only the values that interest. This option is very useful if the denomination is not yet definitive or if you want to start directly completely inductively. In the following image you can see the generated result.
@@ -181,7 +190,8 @@ You can see how by selecting SAVE the information is automatically filled. Then,
 
 ![900](img/web7.jpg)
 
-### **Video selection**
+### Video selection
+
 LINCE PLUS allows you to play simultaneously several videos.
 
 To access your selection you must use the Lince desktop application. In the top menu there is the tab "Video" → "Select videos". If you want to delete the entire selection, there is also the option for it. At the bottom of the screen there is a tab option called "Selected videos" which contains an updated selection. You can also see in "project info" how many videos are selected.
@@ -195,7 +205,9 @@ In the video selector the list of supported formats is displayed. As LINCE PLUS 
 If several videos are shown simultaneously, make sure they have the same duration, otherwise LINCE PLUS will not be able to know which temporary mark of the video you want to use for register.
 
 Another aspect to consider is the size of the video. All the selected videos are loaded into the computer memory simultaneously. If several 2GB videos are selected, the computer must be able to play them.
-### **Number of observers**
+
+### Number of observers
+
 If there is only one observer in the project, it is not necessary to fill in this configuration, and the program will act transparently. However, if 2 or more observers participate, it must be specified from the beginning.
 
 ![900](img/web2.png)
@@ -210,7 +222,8 @@ To change the observer, select one and mark it as active. It will show you the c
 
 ![500](img/web4.png)
 
-### **Project information**
+### Project information
+
 Once we have configured videos and set up project information, we recommend you to save your project to avoid losing data. To do this, select the option Project → Save As
 
 ![900](img/desktop4.jpg)
@@ -220,7 +233,9 @@ When closing Lince Desktop it will ask you to save the project, although it is r
 In Windows environment, when LINCE PLUS starts for the next time, it will load the last saved project automatically. This option is very useful to continue working on the same research.
 
 If you have a project built under Lince 1.4 or earlier, it also supports including it to your research with the record file or with the instrument file. You can see this on detail in the section of "importing and exporting to external tools".
-### **Delimitation of observation episodes**
+
+### Delimitation of observation episodes
+
 The episode delimitation is a new feature that allows you to set the observational sampling to materialize. The videos are previewed, where you can select what you want to observe and you can include additional comments.
 
 This option is accessed from the "Scenes" section in the side menu. Before, you must have choosen selected videos to register.
@@ -240,7 +255,8 @@ In this player there are several work areas:
   - Edit: An edit button to add a comment.
   - Delete: Allows you to delete the entered scene and the observed records it contains
 
-### **Analysis**
+### Analysis
+
 This option is the main work area for observation. It has been designed to simplify it to the maximum and to be similar to the previous version of Lince. All the episodes introduced previously with the observed records are found.
 
 ![900](img/web9.jpg)
@@ -254,15 +270,21 @@ In this screen several sections are shown:
 - Instrument zone: Here you can mark what is being observed in the videos. When saving a new episode it generates and introduces the temporary mark of the first video, similar to the episodes.
 
 - Adaptative zone: These are controls that allow you to adapt the work area for video and instrument, changing size and with a vertical line you can move.
-### **Register charts**
+
+### Register charts
+
 This option shows your register visually using simple charts. In the following example you can see how there is a moment in which no observation has been recorded yet in the episode 24,18.
 
 ![900](img/web10.png)
 
 You can visually check the elements of the observation instrument in percentages and trendings in the different episodes of the record.
-### **Data analysis**
+
+### Data analysis
+
 LINCE PLUS eases calcuting results automatically without using external tools, either by using the R programming language or by the automatic comparison of several observers for the calculation of the agreement index, including data quality control.
-#### **Statistical results using R**
+
+#### Statistical results using R
+
 This is one of the bigger new features of LINCE PLUS, because from now on an R language engine is included. If you navigate to the R-console option there is a component that allows you to calculate your desired results for your analysis.
 
 ![900](img/web12.png)
@@ -286,7 +308,9 @@ This code shows you on the screen the matrix of the record divided by categories
 ![900](img/web13.png)
 
 The intention of Lince Plus is that this option can be used by experts.
-#### **Calculation of the agreement between several observers**
+
+#### Calculation of the agreement between several observers
+
 If several observers participate in the project, LINCE PLUS allows you to calculate the agreement between the different observers and to know if they are concordant in the registration of the same aspects in the observation, being able to calculate the agreement rates through Kappa or Krippendorf and generate the contingency matrix between your observations.
 
 For its calculation, the observers must have the same episodes, number of episodes and an independent record of each of them.
@@ -304,7 +328,9 @@ How to perform the calculation:
 1. Press EXECUTE to visualize the result.
 
 Future versions of LINCE PLUS will force you to register identical episodes.
-## **Import and export of data**
+
+## Import and export of data
+
 LINCE PLUS allows the integration of external registries and other applications.
 
 ![400](img/desktop5.jpg)
@@ -320,7 +346,8 @@ LINCE PLUS allows the integration of external registries and other applications.
   - SAS
   - GSEQ
   - Lince 1, both instrument and record.
-## **Connecting other devices**
+
+## Connecting other devices
 You can use Lince desktop on your computer and watch your videos comfortably from another device or tablet. In smartphone too, but the amount of information that will manage will not be comfortable to use.
 
 Remote access is very simple, since you only have to access the *direction* of your machine with the *port* you have:
@@ -343,12 +370,12 @@ The port is reported in the application, in the lower frame just on startup.
 
 ![400](img/puerto.jpg)
 
-## **Team work**
+## Team work
 LINCE PLUS allows a wide range of possibilities under a simple work system and, especially, allowing several researchers to collaborate simultaneously.
 
-Here are some of these aspects: 
+Here are some of these aspects:
 
-- Each observer generated in the "Project information" section generates a new observer profile. 
+- Each observer generated in the "Project information" section generates a new observer profile.
 - Each observer has an observation record, independent from the rest.
 
 This allows you to perform simultaneous observations within several observers, generating several scenarios:
@@ -362,7 +389,9 @@ This allows you to perform simultaneous observations within several observers, g
 All this can be done simultaneously thanks to collaborative work.
 
 If there are doubts about how to connect, consult the section "Discover your IP"
-## **Connection of R Studio to Lince plus**
+
+## Connection of R Studio to Lince plus
+
 If you want more statistical power, or generating reports with more complex graphics, you can connect R Studio to Lince. For this you can follow the advice you have in the section "Console R" in the web interface.
 
 In summary, the process is as follows:
@@ -411,7 +440,7 @@ In both systems, a dark text screen opens. On this screen enter "java -version".
 You will know if you have it installed properly or not.
 ![400](img/trouble2.jpg)
 
-If the result is not recognized, it is because you do not have it installed. 
+If the result is not recognized, it is because you do not have it installed.
 
 
 **Discover your IP**
